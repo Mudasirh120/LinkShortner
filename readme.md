@@ -1,8 +1,3 @@
-Perfect! Let’s draft a **clear, recruiter-friendly README** for your **LinkShortner** project. We’ll keep it **simple, clean, and impactful**, so anyone scanning it in 7 seconds immediately gets it.
-Here’s a **basic version** you can use:
-
----
-
 # LinkShortner
 
 **A simple and fast URL shortening service built with Node.js, Express, and MongoDB.**
@@ -13,19 +8,19 @@ Shorten long URLs, share them easily, and track the number of clicks.
 
 ## Features
 
-* Shorten long URLs into easy-to-share links
-* Track click counts for each link
-* clean and minimal interface
-* Deployed online for live access
+- Shorten long URLs into easy-to-share links
+- Track click counts for each link
+- clean and minimal interface
+- Deployed online for live access
 
 ---
 
 ## Tech Stack
 
-* **Backend:** Node.js, Express.js
-* **Frontend:** EJS, 
-* **Database:** MongoDB
-* **Deployment:** Vercel
+- **Backend:** Node.js, Express.js
+- **Frontend:** EJS,
+- **Database:** MongoDB
+- **Deployment:** Vercel
 
 ---
 
@@ -70,4 +65,4 @@ npm run dev
 
 ## Screenshots
 
-*(Add a screenshot of your app here for visual impact)*
+![preview](./preview.png)
