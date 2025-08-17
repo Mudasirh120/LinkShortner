@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "files": [
-    "views/*"
-  ],
   "scripts": {
     "dev": "nodemon local.js",
     "start": "node server.js"
