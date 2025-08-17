@@ -1,14 +1,14 @@
 {
   "name": "linkshortner",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple URL shortening service built with express, ejs and mongodb and deployed on Vercel. Users can shorten URLs and track the number of clicks on each link.",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon local.js",
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mudasir Hussain",
   "license": "ISC",
   "type": "module",
   "dependencies": {
