@@ -6,6 +6,5 @@
       "use": "@vercel/node"
     }
   ],
-  "routes": [{ "src": "/(.*)", "dest": "/server.js" }],
-  "includeFiles": ["views/**"]
+  "routes": [{ "src": "/(.*)", "dest": "/server.js" }]
 }
