@@ -41,12 +41,23 @@
           <% Urls.forEach((url)=>{ %>
           <tr>
             <td><a href="<%= url.full %>"><%= url.full %></a></td>
-            <td><a href="/url/<%= url.short %>"><%= url.short %></a></td>
+            <td>
+              <span style="display: flex; align-items: center; gap: 10px"
+                ><a href="/url/<%= url.short %>"><%= url.short %></a
+                ><img
+                  aria-valuetext="<%= url.short%>"
+                  src="/copy.svg"
+                  class="copy"
+                  style="filter: invert(1)"
+                  alt="copy"
+              /></span>
+            </td>
             <td><%= url.click %></td>
           </tr>
           <% }) %>
         </tbody>
       </table>
     </div>
+    <script src="/copy.js"></script>
   </body>
 </html>
