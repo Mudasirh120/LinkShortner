@@ -14,7 +14,7 @@
     <div class="container">
       <h1>URL Shrinker</h1>
       <form
-        action="/api/url/shorten"
+        action="/url/shorten"
         method="post"
         class="my-4 d-flex align-items-center gap-2"
       >
@@ -41,7 +41,7 @@
           <% Urls.forEach((url)=>{ %>
           <tr>
             <td><a href="<%= url.full %>"><%= url.full %></a></td>
-            <td><a href="/api/url/<%= url.short %>"><%= url.short %></a></td>
+            <td><a href="/url/<%= url.short %>"><%= url.short %></a></td>
             <td><%= url.click %></td>
           </tr>
           <% }) %>
